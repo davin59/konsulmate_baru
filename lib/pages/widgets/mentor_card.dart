@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'button_action_mentor_card.dart';
 
 class MentorDetailCard extends StatelessWidget {
   final String mentorName;
@@ -239,14 +238,6 @@ class MentorDetailCard extends StatelessWidget {
               ),
             ],
           ),
-        ),
-        
-        const SizedBox(height: 24),
-        
-        // Button actions
-        const Padding(
-          padding: EdgeInsets.symmetric(horizontal: 16),
-          child: ButtonActionMentorCard(),
         ),
         
         const SizedBox(height: 24),
